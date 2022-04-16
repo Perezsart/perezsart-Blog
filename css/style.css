@@ -1,0 +1,174 @@
+
+
+
+html {
+  box-sizing: border-box;
+  font-size: 80.5%; /* 1 rem = 10px */
+}
+
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+}
+
+@media (min-width: 375px) {
+  body {
+    max-width: 1445px;
+  }
+     
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 4rem;
+  font-size: 1.5rem;
+  color: white;
+
+}
+
+.hero {
+  width: 30%;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+@media (min-width: 375px) {
+  .card {
+    width: 100%;
+  }
+     
+}
+.card {
+  font-size: 18px;
+  font-weight: 300;
+  word-spacing: 0.2rem;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 30px;
+  width: 80%;
+  margin: 1rem;
+  background: #333652;
+  color: white;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem ;
+  color: black;
+  background-color: #333652;
+  border-radius: 3rem;
+  padding-top: 1rem;
+
+}
+
+.nav {
+  color: white;
+
+}
+
+.nav:hover {
+  color: #90adc6;
+}
+
+.header {
+  margin: 0;
+  padding: 1rem;
+  color: #333652;
+}
+
+.title {
+  font-weight: 900;
+
+  font-size: 3.5rem;
+}
+
+.title2 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.button-conversation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+  margin: 1rem;
+  padding-bottom: 4rem;
+  color: #333652;
+}
+
+.button{
+  text-decoration: none;
+  color: white;
+  background-color: #333652;
+  margin: 0;
+  border-radius: 3rem;
+  padding: 1.5rem 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out ;
+  box-shadow: 10px 20px 40px 20px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+
+.button:hover {
+
+  background: #90adc6;
+  color: #333652;
+}
+
+i {
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2rem;
+
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.contact-ig {
+  width: 100px;
+  height: fit-content;
+
+}
+
+footer {
+  padding-top: 2rem 1rem;
+  font-size: 12px;
+  color: #333652;
+}
